@@ -29,7 +29,7 @@ namespace HsumChaint.Application.Services
                 });
 
                 response.IsSuccess = addResponse.IsSuccess;
-                response.Message = addResponse.Message; s
+                response.Message = addResponse.Message;
             }
             catch (Exception ex)
             {
