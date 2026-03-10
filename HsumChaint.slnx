@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
     <File Path=".gitignore" />
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile" />
     <File Path="README.md" />
   </Folder>
   <Project Path="HsumChaint.API/HsumChaint.API.csproj" Id="be5a77bd-e6e7-4111-b6ac-7577ea2ce4ec" />
