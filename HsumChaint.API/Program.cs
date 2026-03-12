@@ -1,3 +1,4 @@
+using HsumChaint.Application.Mappings;
 using HsumChaint.Application.ServiceInterfaces;
 using HsumChaint.Application.Services;
 using HsumChaint.Infrastructure.Models;
@@ -7,6 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add Automapper
+builder.Services.AddAutoMapper(config =>
+{
+    config.AddMaps(typeof(DtoToEntityMappingProfile).Assembly);
+});
+
 
 // Add services to the container.
 
