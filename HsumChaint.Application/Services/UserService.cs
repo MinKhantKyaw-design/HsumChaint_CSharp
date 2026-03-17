@@ -1,11 +1,11 @@
-﻿using HsumChaint.Application.DTOs;
-using HsumChaint.Application.ServiceInterfaces;
+﻿using HsumChaint.Application.ServiceInterfaces;
 using HsumChaint.Infrastructure.RepositoryInterfaces;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using HsumChaint.Infrastructure.Models;
+using HsumChaint.Application.DTOs.User;
 
 namespace HsumChaint.Application.Services
 {
