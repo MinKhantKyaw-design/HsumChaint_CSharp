@@ -1,4 +1,5 @@
-﻿using HsumChaint.Application.DTOs;
+﻿using HsumChaint.Application.DTOs.User;
+using HsumChaint.Application.DTOs;
 using HsumChaint.Application.ServiceInterfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

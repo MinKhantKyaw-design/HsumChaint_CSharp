@@ -1,4 +1,4 @@
-﻿using HsumChaint.Application.DTOs;
+﻿using HsumChaint.Application.DTOs.User;
 
 namespace HsumChaint.Application.ServiceInterfaces
 {

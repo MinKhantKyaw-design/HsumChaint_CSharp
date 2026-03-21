@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using HsumChaint.Application.DTOs;
+using HsumChaint.Application.DTOs.User;
 using HsumChaint.Infrastructure.Models;
 using System;
 using System.Collections.Generic;
